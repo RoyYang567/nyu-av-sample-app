@@ -1,0 +1,101 @@
+﻿Device ID,Device Name,Location,Status,Purchase Date
+display_002,"Sony 85"" Bravia Display",Kimmel Center 402,Offline,2024-05-20
+display_007,"Samsung 75"" Smart Display",Cantor Film Center 102,Online,2024-02-14
+display_012,"LG 98"" Commercial Display",Paulson Center Lounge,Offline,2025-02-10
+display_017,"Sony 85"" Bravia Display",Global Center 105,Offline,2024-07-12
+display_022,"Samsung 75"" Smart Display",Tisch Hall LC2,Offline,2023-06-20
+display_027,"Sony 85"" Bravia Display",Silver Center 206,Offline,2024-04-10
+display_032,"LG 98"" Commercial Display",Wasserman Center 102,Offline,2023-12-15
+display_037,"Sony 85"" Bravia Display",Bobst Library 502,Offline,2024-09-10
+display_042,"Samsung 75"" Smart Display",Meyer Hall 122,Online,2023-08-20
+display_047,"Sony 85"" Bravia Display",Vanderbilt Hall 212,Offline,2024-06-12
+display_052,"Sony 85"" Bravia Display",Kimmel Center 404,Offline,2024-12-10
+display_057,"Samsung 75"" Smart Display",Cantor Film Center 202,Online,2024-03-10
+display_062,"LG 98"" Commercial Display",Paulson Center 302,Online,2025-04-01
+display_067,"Sony 85"" Bravia Display",Global Center 202,Online,2024-02-10
+display_072,"Samsung 75"" Smart Display",Tisch Hall LC4,Online,2023-10-10
+display_077,"Sony 85"" Bravia Display",Silver Center 302,Online,2024-07-10
+display_082,"LG 98"" Commercial Display",Wasserman Center 202,Online,2024-03-15
+display_087,"Sony 85"" Bravia Display",Bobst Library 602,Online,2024-12-01
+display_092,"Samsung 75"" Smart Display",Meyer Hall 202,Online,2024-01-10
+display_097,"Sony 85"" Bravia Display",Vanderbilt Hall 302,Online,2024-09-10
+dsp_003,Biamp Tesira DSP,Kimmel Center Auditorium,Offline,2023-11-15
+dsp_008,Q-SYS Core 110f DSP,Cantor Film Center 101,Online,2023-09-05
+dsp_013,Biamp Tesira DSP,Paulson Center Cafe,Offline,2024-12-05
+dsp_018,Q-SYS Core 110f DSP,Global Center 102,Online,2023-11-01
+dsp_023,Biamp Tesira DSP,Tisch Hall LC1,Online,2023-04-18
+dsp_028,Q-SYS Core 110f DSP,Silver Center 205,Online,2024-02-18
+dsp_033,Biamp Tesira DSP,Wasserman Center 101,Online,2023-10-20
+dsp_038,Q-SYS Core 110f DSP,Bobst Library 501,Offline,2024-07-20
+dsp_043,Biamp Tesira DSP,Meyer Hall 121,Online,2023-06-15
+dsp_048,Q-SYS Core 110f DSP,Vanderbilt Hall 210,Online,2024-04-20
+dsp_053,Biamp Tesira DSP,Kimmel Center 403,Online,2024-10-15
+dsp_058,Q-SYS Core 110f DSP,Cantor Film Center 201,Online,2024-01-15
+dsp_063,Biamp Tesira DSP,Paulson Center 301,Online,2025-02-15
+dsp_068,Q-SYS Core 110f DSP,Global Center 201,Online,2023-12-15
+dsp_073,Biamp Tesira DSP,Tisch Hall LC3,Online,2023-08-15
+dsp_078,Q-SYS Core 110f DSP,Silver Center 301,Online,2024-05-15
+dsp_083,Biamp Tesira DSP,Wasserman Center 201,Online,2024-01-20
+dsp_088,Q-SYS Core 110f DSP,Bobst Library 601,Online,2024-10-15
+dsp_093,Biamp Tesira DSP,Meyer Hall 201,Online,2023-11-15
+dsp_098,Q-SYS Core 110f DSP,Vanderbilt Hall 301,Online,2024-07-15
+mic_005,Shure Wireless Receiver,Kimmel Center 402,Online,2024-06-01
+mic_010,Sennheiser SpeechLine Receiver,Cantor Film Center 101,Online,2024-05-11
+mic_015,Shure Wireless Receiver,Paulson Center Lounge,Online,2025-03-01
+mic_020,Sennheiser SpeechLine Receiver,Global Center 102,Online,2024-09-01
+mic_025,Shure Wireless Receiver,Tisch Hall LC1,Online,2023-08-12
+mic_030,Sennheiser SpeechLine Receiver,Silver Center 205,Offline,2024-05-15
+mic_035,Shure Wireless Receiver,Wasserman Center 101,Online,2024-02-12
+mic_040,Sennheiser SpeechLine Receiver,Bobst Library 501,Online,2024-10-15
+mic_045,Shure Wireless Receiver,Meyer Hall 121,Online,2023-10-10
+mic_050,Sennheiser SpeechLine Receiver,Vanderbilt Hall 210,Online,2024-07-15
+mic_055,Shure Wireless Receiver,Kimmel Center 403,Offline,2025-01-20
+mic_060,Sennheiser SpeechLine Receiver,Cantor Film Center 201,Online,2024-04-15
+mic_065,Shure Wireless Receiver,Paulson Center 301,Online,2025-05-01
+mic_070,Sennheiser SpeechLine Receiver,Global Center 201,Offline,2024-03-15
+mic_075,Shure Wireless Receiver,Tisch Hall LC3,Online,2023-11-15
+mic_080,Sennheiser SpeechLine Receiver,Silver Center 301,Online,2024-08-15
+mic_085,Shure Wireless Receiver,Wasserman Center 201,Online,2024-04-20
+mic_090,Sennheiser SpeechLine Receiver,Bobst Library 601,Online,2025-01-25
+mic_095,Shure Wireless Receiver,Meyer Hall 201,Online,2024-02-15
+mic_100,Sennheiser SpeechLine Receiver,Vanderbilt Hall 301,Online,2024-10-15
+projector_001,Epson 3LCD Projector,Kimmel Center 401,Online,2024-03-12
+projector_006,Panasonic Laser Projector,Cantor Film Center 101,Offline,2023-08-22
+projector_011,Epson 3LCD Projector,Paulson Center Lobby,Online,2025-01-15
+projector_016,Panasonic Laser Projector,Global Center 102,Online,2023-10-30
+projector_021,Epson 3LCD Projector,Tisch Hall LC1,Online,2023-05-14
+projector_026,Panasonic Laser Projector,Silver Center 205,Online,2024-03-25
+projector_031,Epson 3LCD Projector,Wasserman Center 101,Online,2023-11-30
+projector_036,Panasonic Laser Projector,Bobst Library 501,Online,2024-08-14
+projector_041,Epson 3LCD Projector,Meyer Hall 121,Online,2023-07-12
+projector_046,Panasonic Laser Projector,Vanderbilt Hall 210,Online,2024-05-18
+projector_051,Epson 3LCD Projector,Kimmel Center 403,Online,2024-11-20
+projector_056,Panasonic Laser Projector,Cantor Film Center 201,Online,2024-02-18
+projector_061,Epson 3LCD Projector,Paulson Center 301,Online,2025-03-10
+projector_066,Panasonic Laser Projector,Global Center 201,Online,2024-01-12
+projector_071,Epson 3LCD Projector,Tisch Hall LC3,Online,2023-09-18
+projector_076,Panasonic Laser Projector,Silver Center 301,Online,2024-06-22
+projector_081,Epson 3LCD Projector,Wasserman Center 201,Online,2024-02-28
+projector_086,Panasonic Laser Projector,Bobst Library 601,Online,2024-11-12
+projector_091,Epson 3LCD Projector,Meyer Hall 201,Online,2023-12-18
+projector_096,Panasonic Laser Projector,Vanderbilt Hall 301,Offline,2024-08-22
+switcher_004,Crestron 4K Matrix,Kimmel Center 401,Online,2024-01-10
+switcher_009,Extron HDMI Switcher,Cantor Film Center 102,Online,2024-04-18
+switcher_014,Crestron NVX Encoder,Paulson Center Lobby,Online,2025-01-20
+switcher_019,Extron HDMI Switcher,Global Center 105,Offline,2024-08-25
+switcher_024,Crestron 4K Matrix,Tisch Hall LC2,Online,2023-07-01
+switcher_029,Extron HDMI Switcher,Silver Center 206,Online,2024-05-01
+switcher_034,Crestron NVX Encoder,Wasserman Center 102,Online,2024-01-05
+switcher_039,Extron HDMI Switcher,Bobst Library 502,Online,2024-10-01
+switcher_044,Crestron 4K Matrix,Meyer Hall 122,Online,2023-09-01
+switcher_049,Extron HDMI Switcher,Vanderbilt Hall 212,Online,2024-07-01
+switcher_054,Crestron 4K Matrix,Kimmel Center 404,Online,2025-01-05
+switcher_059,Extron HDMI Switcher,Cantor Film Center 202,Online,2024-04-01
+switcher_064,Crestron NVX Encoder,Paulson Center 302,Online,2025-04-10
+switcher_069,Extron HDMI Switcher,Global Center 202,Online,2024-03-01
+switcher_074,Crestron 4K Matrix,Tisch Hall LC4,Online,2023-11-01
+switcher_079,Extron HDMI Switcher,Silver Center 302,Offline,2024-08-01
+switcher_084,Crestron NVX Encoder,Wasserman Center 202,Online,2024-04-05
+switcher_089,Extron HDMI Switcher,Bobst Library 602,Online,2025-01-10
+switcher_094,Crestron 4K Matrix,Meyer Hall 202,Online,2024-02-01
+switcher_099,Extron HDMI Switcher,Vanderbilt Hall 302,Online,2024-10-01
