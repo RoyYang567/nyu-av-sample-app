@@ -86,7 +86,9 @@ streamlit run app.py
 5. Click **Generate & Preview**.
 6. Confirm execution.
 <img src="screenshots/execution_confirm.png" width="450">
+
 7. View the generated JSON payload.
+
 8. Check the Audit Logs.
 ![Audit Log](screenshots/audit_log.png)
 
