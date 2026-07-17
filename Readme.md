@@ -2,7 +2,8 @@
 
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](#)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-FF4B4B?logo=streamlit&logoColor=white)](https://nyu-av-sample-app.streamlit.app/)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://nyu-av-sample-app.streamlit.app/)
 
 > A Streamlit-based sample application demonstrating spreadsheet integration,
 > role-based access control (RBAC), and JSON-based AV device command simulation.
