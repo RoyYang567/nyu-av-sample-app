@@ -6,6 +6,7 @@
 **Built with:** Python · Streamlit · Pandas
 
 <img src="screenshots/dashboard.png" width="850">
+
 ## Overview
 This project is a [Streamlit](streamlit.io)-based dashboard, developed as a sample application for the NYU Cloud and API Automation Developer position.
 
@@ -34,11 +35,12 @@ The application combines AV equipment inventory and staff schedules into a unifi
 ├── audit_log.csv
 ├── screenshots/
 └── .streamlit/
+    ├── config.toml
     └── secrets.example.toml
 ```
 
 ## Installation
-
+Install all required packages for this project with the following command:
 
 ```bash
 pip install -r requirements.txt
@@ -48,19 +50,21 @@ pip install -r requirements.txt
 Create `.streamlit/secrets.toml` with the following structure:
 
 ```toml
-[usrs.your user name here]
+[usrs.MANAGER username here]
 psw = "your password here"
 is_admin = true
 
-[usrs.your user name here]
+[usrs.TECHNICIAN username here]
 psw = "your password here"
 is_admin = false
 
 ```
 A template is named `secrets.example.toml` and is provided in the repository.
 
+`config.toml` sets the Theme color for this project.
+
 ## Run
-Run the application.
+Run the application:
 
 ```bash
 streamlit run app.py
@@ -74,8 +78,10 @@ streamlit run app.py
 3. Select one or more devices.
     1. To select multiple devices, enable **Batch Selection**.
     <img src="screenshots/control_center_1.png" width="450">
+    
     2. You can also enter device IDs manually.
     <img src="screenshots/control_center_2.png" width="450">
+
 4. Choose a command.
 5. Click **Generate & Preview**.
 6. Confirm execution.
@@ -84,8 +90,10 @@ streamlit run app.py
 8. Check the Audit Logs.
 ![Audit Log](screenshots/audit_log.png)
 
+#### JSON Payload Example
 The generated JSON payload is displayed before command execution and can be downloaded after confirmation.
-### JSON Payload Example
+
+Sample downloaded JSON File:
 ```JSON
 {
   "request_id": "REQ-20260717-1b14454c",
