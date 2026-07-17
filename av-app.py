@@ -177,9 +177,7 @@ st.title("System Dashboard")
 tab1, tab2, tab3, tab4 = st.tabs(["Inventory", "Staff Schedules", "Control Center", "Audit Logs"])
 
 # Tab 1: Equipment Inventory with Status Indicators
-with tab1:
-    # ... (Metrics code same as before) ...
-    
+with tab1:    
     # Helper to inject status lights
     def add_status_indicator(val):
         # Normalizing string to catch 'online', 'Online', ' ONLINE '
@@ -214,18 +212,25 @@ with tab2:
             date_col = col
             
     # Filters
-    search_staff = st.text_input("Search Staff Name")
-    show_today = st.checkbox("Show Today's Shifts Only")
-    
+    with st.form("schedule_filter"):
+        search_staff = st.text_input("Search Staff", placeholder="Enter staff name...")
+        show_today = st.checkbox("Today's Shifts")
+
+        col1, col2 = st.columns([5, 1])
+
+        with col2:
+            apply = st.form_submit_button("Apply Filters", use_container_width=True)
+  
     df_sch_disp = df_schedules.copy()
-    
-    if search_staff:
-        df_sch_disp = df_sch_disp[df_sch_disp[name_col].astype(str).str.contains(search_staff, case=False)]
-        
-    if show_today and date_col:
-        today_str = datetime.now().strftime("%Y-%m-%d")
-        df_sch_disp = df_sch_disp[pd.to_datetime(df_sch_disp[date_col], errors='coerce').dt.strftime("%Y-%m-%d") == today_str]
-    
+
+    if apply:
+        if search_staff:
+            df_sch_disp = df_sch_disp[df_sch_disp[name_col].astype(str).str.contains(search_staff, case=False, na=False)]
+
+        if show_today and date_col:
+            today_str = datetime.now().strftime("%Y-%m-%d")
+            df_sch_disp = df_sch_disp[pd.to_datetime(df_sch_disp[date_col], errors="coerce").dt.strftime("%Y-%m-%d") == today_str]
+
     df_sch_disp.index = range(1, len(df_sch_disp) + 1)
     st.dataframe(df_sch_disp, use_container_width=True, height=400)
 
