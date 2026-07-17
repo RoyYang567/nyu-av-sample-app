@@ -12,6 +12,17 @@ This project is a [Streamlit](streamlit.io)-based dashboard, developed as a samp
 
 The application combines AV equipment inventory and staff schedules into a unified interface with Role-Based Access Control (RBAC), simulated device commands, and JSON payload generation.
 
+### Online Demo
+Demo can be accessed by [this link](https://nyu-av-sample-app.streamlit.app/).
+
+**Manager**
+- Username: `admin`
+- Password: `123123`
+
+**Technician**
+- Username: `tec`
+- Password: `123123`
+
 ## Features
 
 - 🔐 User Authentication
