@@ -1,27 +1,34 @@
 # NYU AV Operations Portal
 
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](#)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-FF4B4B?logo=streamlit&logoColor=white)](https://nyu-av-sample-app.streamlit.app/)
+
 > A Streamlit-based sample application demonstrating spreadsheet integration,
 > role-based access control (RBAC), and JSON-based AV device command simulation.
 
-**Built with:** Python · Streamlit · Pandas
-
 <img src="screenshots/dashboard.png" width="850">
 
+---
+
+## 🚀 Live Demo
+
+**Demo Website:**  https://nyu-av-sample-app.streamlit.app/
+
+**Demo Accounts**
+
+| Role | Username | Password |
+| :--- | :------: | :------: |
+| Manager | `admin` | `123123` |
+| Technician | `tec` | `123123` |
+
+---
+
 ## Overview
-This project is a [Streamlit](streamlit.io)-based dashboard, developed as a sample application for the NYU Cloud and API Automation Developer position.
 
-The application combines AV equipment inventory and staff schedules into a unified interface with Role-Based Access Control (RBAC), simulated device commands, and JSON payload generation.
+This project was developed as a sample application for the **NYU Cloud and API Automation Developer** position.
 
-### Online Demo
-Demo can be accessed by [this link](https://nyu-av-sample-app.streamlit.app/).
-
-**Manager**
-- Username: `admin`
-- Password: `123123`
-
-**Technician**
-- Username: `tec`
-- Password: `123123`
+The application integrates AV equipment inventory and staff schedules into a unified dashboard with Role-Based Access Control (RBAC), simulated AV device commands, JSON payload generation, and audit logging.
 
 ## Features
 
